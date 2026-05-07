@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5103",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Jwt__Secret": "super-secret-dev-key-change-in-production-32chars",
+        "Jwt__Issuer": "identity-service",
+        "Jwt__Audience": "webshop"
+      }
+    }
+  }
+}

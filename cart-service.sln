@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.API",            "src/CartService.API/CartService.API.csproj",                       "{593B6269-8D76-99C1-257D-1BB97C02EC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Application",    "src/CartService.Application/CartService.Application.csproj",       "{3C86FB10-6AEC-4010-B3F9-76A948BC9741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Domain",         "src/CartService.Domain/CartService.Domain.csproj",                 "{39BABC00-A405-40EB-AA6E-F1BBC474ECB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Infrastructure", "src/CartService.Infrastructure/CartService.Infrastructure.csproj", "{F038F1E9-6872-4FBA-958B-56A61D9046D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Tests", "tests/CartService.Tests/CartService.Tests.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{593B6269-8D76-99C1-257D-1BB97C02EC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{593B6269-8D76-99C1-257D-1BB97C02EC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{593B6269-8D76-99C1-257D-1BB97C02EC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{593B6269-8D76-99C1-257D-1BB97C02EC20}.Release|Any CPU.Build.0 = Release|Any CPU
+{3C86FB10-6AEC-4010-B3F9-76A948BC9741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{3C86FB10-6AEC-4010-B3F9-76A948BC9741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{3C86FB10-6AEC-4010-B3F9-76A948BC9741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{3C86FB10-6AEC-4010-B3F9-76A948BC9741}.Release|Any CPU.Build.0 = Release|Any CPU
+{39BABC00-A405-40EB-AA6E-F1BBC474ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{39BABC00-A405-40EB-AA6E-F1BBC474ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{39BABC00-A405-40EB-AA6E-F1BBC474ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{39BABC00-A405-40EB-AA6E-F1BBC474ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
+{F038F1E9-6872-4FBA-958B-56A61D9046D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{F038F1E9-6872-4FBA-958B-56A61D9046D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{F038F1E9-6872-4FBA-958B-56A61D9046D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{F038F1E9-6872-4FBA-958B-56A61D9046D3}.Release|Any CPU.Build.0 = Release|Any CPU
+{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+GlobalSection(SolutionProperties) = preSolution
+HideSolutionNode = FALSE
+EndGlobalSection
+GlobalSection(ExtensibilityGlobals) = postSolution
+SolutionGuid = {196190E4-E2EC-4CDF-8183-F5AEC743099B}
+EndGlobalSection
+EndGlobal
