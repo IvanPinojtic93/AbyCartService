@@ -394,4 +394,5 @@ FodyWeavers.xsd
 .idea/
 
 # Docker
+.env
 docker-compose.override.yml
